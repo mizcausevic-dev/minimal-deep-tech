@@ -1,0 +1,30 @@
+{
+  "label": "preview, not a master.",
+  "preview_path": "preview/minimal-deep-tech-simple-synth-preview.mp3",
+  "preview_sha256": "c8c823380ea0c7c38b26d307cd06ac06bcb860af7111cb7acb5c37dba247e56a",
+  "source_midi_path": "midi/mt01-metal-groove/mt01-metal-groove-combined.mid",
+  "source_midi_sha256": "ff6a8fff75337af2a205a4435e8909aee548f11d847239ee5870e3fadfbed845",
+  "renderer": "release-simple-synth 1.0.0",
+  "renderer_configuration": {
+    "sample_rate": 44100,
+    "source_tracks": [
+      "chord_pulse",
+      "counter_texture",
+      "drums",
+      "principal_motif",
+      "sub_bass",
+      "vocal_like_synth"
+    ],
+    "processing": "Per-voice synthesis and envelopes; summed samples are clamped to +/-0.95, converted to 16-bit stereo PCM and encoded to 192 kb/s MP3."
+  },
+  "selection": {
+    "study": "mt01",
+    "start_seconds": 0,
+    "end_seconds": 60.952
+  },
+  "measurement": {
+    "sample_peak": 0.12955,
+    "not_lufs_or_true_peak": true
+  },
+  "limitations": "Automated generation and decode checks only. Nobody auditioned this simple-synthesis preview. It is not a finished-production sound or master."
+}

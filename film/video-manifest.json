@@ -1,0 +1,26 @@
+{
+  "title": "Minimal Deep Tech",
+  "study": "mt01",
+  "bpm": 126,
+  "source_audio": "preview/minimal-deep-tech-simple-synth-preview.mp3",
+  "source_audio_sha256": "c8c823380ea0c7c38b26d307cd06ac06bcb860af7111cb7acb5c37dba247e56a",
+  "source_midi": "midi/mt01-metal-groove/mt01-metal-groove-combined.mid",
+  "source_midi_sha256": "ff6a8fff75337af2a205a4435e8909aee548f11d847239ee5870e3fadfbed845",
+  "source_events": "catalog/note-events.csv",
+  "source_events_sha256": "71ba77837cea903c405069cb2d9afcd736270ad4d6dd653379a4aa1f1deb8fe7",
+  "art_source_file": "art/hero.jpg",
+  "art_source_sha256": "1058c8552636136644905d1588354f1ed51c15636007eb6dcbc78f5b83a7751b",
+  "excerpt_start_seconds": 0,
+  "duration_seconds": 18.0,
+  "video": "film/preview.mp4",
+  "video_sha256": "5592a780cc04b5e26f5ae64c08f34507cdf74c6c4df66daed8bed2c98a27e82d",
+  "caption": "film/preview.vtt",
+  "resolution": "960x540",
+  "fps": 15,
+  "visualization": "Scrolling note events from the selected score over a moving cover image",
+  "disclosure": "preview, not master",
+  "limitations": [
+    "Simple-synth rendering, not a recorded performance.",
+    "No human listening review recorded."
+  ]
+}

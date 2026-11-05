@@ -1,0 +1,5 @@
+study_id,title,collection,tonic,tempo_bpm,meter,ppq,bars,end_tick,combined_path,roles
+mt01,Metal Groove,pack-local equal-tempered pitch collection,A,126,4/4,480,32,61440,midi/mt01-metal-groove/mt01-metal-groove-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+mt02,Small Shift,pack-local equal-tempered pitch collection,C,126,4/4,480,32,61440,midi/mt02-small-shift/mt02-small-shift-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+mt03,Narrow Room,pack-local equal-tempered pitch collection,D#,126,4/4,480,32,61440,midi/mt03-narrow-room/mt03-narrow-room-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
+mt04,Soft Return,pack-local equal-tempered pitch collection,A#,126,4/4,480,32,61440,midi/mt04-soft-return/mt04-soft-return-combined.mid,chord_pulse; sub_bass; principal_motif; vocal_like_synth; counter_texture; drums
