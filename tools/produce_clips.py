@@ -67,6 +67,15 @@ def main():
                             pitches = [pitches[0]-12, pitches[1], pitches[2]]
                         for pitch in sorted(pitches):
                             notes.append((bar*release.BAR_TICKS, 1440, pitch, 72 + (bar%2)*8))
+                elif kind == "sub_bass" and args.pack == "minimal-deep-tech":
+                    # Four related but distinct syncopated bass answers per study.
+                    cells = ((0, 720, 1260), (240, 840, 1500), (120, 600, 1440), (360, 960, 1620))
+                    for bar in range(4):
+                        root_pitch = study["bass"][(bar + study_index) % 4]
+                        for j, offset in enumerate(cells[(bar + variation) % 4]):
+                            pitch = root_pitch + (12 if (bar + j + variation) % 5 == 0 else 0)
+                            duration = (180, 240, 150, 210)[(bar + j + variation) % 4]
+                            notes.append((bar*release.BAR_TICKS + offset, duration, pitch, 74 + 5*((bar+j+variation)%4)))
                 else:
                     start = (8 + variation*4) * release.BAR_TICKS
                     for event in score[kind]:
