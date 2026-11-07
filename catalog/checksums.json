@@ -198,8 +198,8 @@
     },
     {
       "path": "downloads/minimal-deep-tech-midi.zip",
-      "bytes": 29827,
-      "sha256": "9a781b3e77f1426a40fd24bab8fcd5f1470c61b0c09c50b67a6fdf42753936db"
+      "bytes": 30814,
+      "sha256": "365a8a1f810fe3ca402a8adb327c827de9c237d455ad6f3bdf170abc7985f659"
     },
     {
       "path": "film/motion-note-roll.png",
@@ -233,8 +233,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 9693,
-      "sha256": "61ee48ed1b8163fbe40c3ad9ce608476850909e51249a36faabc28661c2727fe"
+      "bytes": 9883,
+      "sha256": "21cf611fd355ed7d8109b3230a07d0cfb8f11418d5e24a5cb95496eca3cdd8d4"
     },
     {
       "path": "midi/mt01-metal-groove/chord_pulse.mid",
@@ -377,6 +377,11 @@
       "sha256": "6ee7e95891272f1b28fa96230b9cc637870cf3bafacd5f71bb2f15b43feb12c6"
     },
     {
+      "path": "MIDI-BUYER-LICENSE-v1.0.txt",
+      "bytes": 1652,
+      "sha256": "1111ca6dd4ca4ff4163f199fae341ff54ca3715acc3cf19ca332f2f6e58c36c9"
+    },
+    {
       "path": "preview/minimal-deep-tech-simple-synth-preview.mp3",
       "bytes": 1476484,
       "sha256": "c8c823380ea0c7c38b26d307cd06ac06bcb860af7111cb7acb5c37dba247e56a"
@@ -388,8 +393,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4036,
-      "sha256": "0bebf6007e427b4796847c96dc2f17e0133fe9a7abd51c54355842babe64a346"
+      "bytes": 4151,
+      "sha256": "f2185d3f07d6b106b462534d563a606669361869ef0483b8d28077d72e84b326"
     },
     {
       "path": "REVISION.md",
